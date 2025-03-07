@@ -1,0 +1,201 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.section {
+    padding: 0 210px;
+}
+
+/* Adjusting header section */
+.header {
+    background-color: #1f2937;
+    color: #f9faf8;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 900;
+    margin-right: auto;
+}
+
+nav,
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+nav ul {
+    padding-left: 0;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a,
+.little-letters {
+    color: #e5e7eb;
+}
+
+/* Parts of the Hero section */
+
+.big-letters {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero {
+    display: flex;
+    margin: auto 0;
+    gap: 25px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 10px;
+}
+
+.image-holder {
+    flex: 1;
+    background-color: #8491a3;
+    display: flex;
+}
+
+.image-holder p {
+    margin: auto;
+}
+
+.button {
+    max-width: fit-content;
+    background-color: #3882f6;
+    padding: 10px 40px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: #f9faf8;
+    font-weight: 600;
+}
+
+/* INFO */
+
+.random-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.random-section h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+    margin: 60px 0;
+}
+
+.info-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+
+.image-holder2 {
+    width: 180px;
+    height: 180px;
+    border: #3882f6 solid 4px;
+    border-radius: 18px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    max-width: 180px;
+}
+
+.item .text {
+    text-align: center;
+}
+
+/* Quote section */
+
+.quote-section {
+    background-color: #e5e7eb;
+    display: flex;
+    /* flex-flow: column; */
+    height: 400px;  
+}
+
+.center-content{
+    margin: auto;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 250;
+    font-style: italic;
+    margin: 0;
+}
+
+.quote-author {
+    text-align: right;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 20 0;
+    padding-right: 60px;
+}
+
+/* Call to action */
+
+.call {
+    display: flex;
+    height: 350px;
+    margin: auto;
+    padding: 0 130px;
+}
+
+.blue-globe {
+    background-color: #3882f6;
+    flex: 1;
+    height: 150px;
+    margin: auto;
+    border-radius: 15px;
+    padding: 15px 80px;
+    color: #f9faf8;
+    display: flex;
+    align-items: center;
+}
+
+.call-content {
+    margin-right: auto;
+}
+
+.button.callb {
+    border: #f9faf8 solid 2px;
+    height: fit-content;
+}
+
+.call-content .title {
+    font-size: 22px;
+    font-weight: 800;
+}
+
+/* Footing */
+
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    color: #f9faf8;
+    height: 130px;
+
+}
